@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title></title>
     <link href="css/style.css" rel="stylesheet">
-    <script>
-      //Picture element HTML5 shiv
-      document.createElement("picture");
-    </script>
-    <script src="js/picturefill.min.js" async></script>
   </head>
   <body class="page-body">
 
@@ -18,14 +13,71 @@
     </div>
 
     <!-- Header -->
-    <header class="page-header"></header>
+    <header class="page-header">
+      <div class="page-header__wrapper">
+        <a class="page-header__logo-link logo-link">
+          <img class="logo-link__logo-img logo-link__logo-img--header" src="#" width="191" height="38" alt="Bikees.">
+        </a>
+        <div class="page-header__search search">
+          <form class="search__search-form" action="#" method="get">
+            <input class="search__search-field" type="search" name="search-field">
+            <button class="search__button" type="submit"></button>
+          </form>
+        </div>
+      </div>
+    </header>
 
     <!-- Main -->
-    <main class="page-main"></main>
+    <main class="page-main">
+      <div class="page-main__wrapper">
+        <h1 class="visually-hidden">Our bikes</h1>
+        <section class="bikes">
+          <img class="bikes__logo" src="#" alt="Fixies">
+          <h2 class="bikes__header">Hisper style</h2>
+          <a class="bikes__link" href="#">Choisir son modèle</a>
+        </section>
+        <section class="bikes">
+          <img class="bikes__logo" src="#" alt="Cruisers">
+          <h2 class="bikes__header">Hippie style</h2>
+          <a class="bikes__link" href="#">Choisir son modèle</a>
+        </section>
+      </div>
+    </main>
 
     <!-- Footer -->
-    <footer class="page-footer"></footer>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__description description">
+          <a class="page-footer__logo-link logo-link">
+            <img class="logo-link__logo-img logo-link__logo-img--footer" src="#" width="191" height="38" alt="Bikees.">
+          </a>
+          <p class="description__payment">PAIEMENT 100% SECURISÉ - DONNÉES CRIPTÉES ET CHIFRÉES.</p>
+          <a class="description__gratitude" href="#">Livraison gratuite à partir de 50€ d’achat</a>
+          <span class="page-footer__copyright">&copy; Bikees.2015</span>
+        </div>
+        <div class="page-footer__menu menu">
+          <ul class="menu__menu-list menu-list">
+            <li class="menu-list__item"><a href="#">Fixies</a></li>
+            <li class="menu-list__item"><a href="#"></a>Cruisers</li>
+            <li class="menu-list__item"><a href="#"></a>Accesories</li>
+            <li class="menu-list__item"><a href="#"></a>Mentions</li>
+            <li class="menu-list__item"><a href="#"></a>C.G.U</li>
+            <li class="menu-list__item"><a href="#"></a>Contact</li>
+          </ul>
+        </div>
+        <div class="page-footer__contacts contacts">
+          <form class="contacts__form contacts-form" action="#" method="post">
+            <input class="contacts-form__email" type="email" placeholder="Saisissez votre adresse mail">
+            <button class="visually-hidden" type="submit"></button>
+          </form>
+          <div class="contacts__social social">
+            <a href="twitter.com"></a>
+            <a href="google.com"></a>
+            <a href="facebook.com"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-  <script src="js/scripts.min.js"></script>
   </body>
 </html>
