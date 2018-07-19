@@ -336,6 +336,14 @@ body {
     width: 2740px;
   }
 }
+.bikes__wrapper {
+  width: 360px;
+}
+.bikes__header {
+  margin: 0;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
+  font-weight: 200;
+}
 .bikes--fixies {
   background-color: #5e85be;
 }
