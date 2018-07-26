@@ -1,20 +1,43 @@
 .bikes {
   font-family: "Open Sans Condensed", Arial, sans-serif;
   .wrapper();
+  padding-bottom: 122px;
 
   &__wrapper {
     width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__logo {
+    padding-bottom: 15px;
   }
   &__header {
     margin: 0;
+    padding-bottom: 47px;
     font-family: "Open Sans Condensed", Arial, sans-serif;
     font-weight: 200;
+    font-size: 54px;
+    line-height: 60px;
+    color: #FFFFFF;
+  }
+  &__link {
+    width: 356px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 39.5px;
+    line-height: 72.2px;
   }
   &--fixies {
     background-color: #5e85be;
+    padding-top: 258px;
   }
   &--cruisers {
     background-color: #a870cf;
+    padding-top: 186px;
   }
 
   @media (min-width: @widescreen-width) {
