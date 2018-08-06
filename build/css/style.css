@@ -384,6 +384,42 @@ body {
     width: 50%;
   }
 }
+.copyright {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 32.6px;
+  line-height: 46.6px;
+  font-weight: 300;
+}
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.description__payment {
+  margin: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 32.6px;
+  line-height: 46.6px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 58px;
+}
+.description__gratitude {
+  font-size: 32.6px;
+  line-height: 46.6px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 105px;
+  font-weight: 300;
+}
 .logo-link {
   padding: 50px 0 55px 0;
 }
@@ -417,6 +453,9 @@ body {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+}
+.page-footer__logo-link {
+  padding: 63px 0 59px 0;
 }
 .page-header {
   background-color: rgba(0, 0, 0, 0.3);
