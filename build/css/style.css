@@ -390,6 +390,7 @@ body {
   font-size: 32.6px;
   line-height: 46.6px;
   font-weight: 300;
+  padding-bottom: 70px;
 }
 .description {
   display: -webkit-box;
@@ -422,6 +423,45 @@ body {
 }
 .logo-link {
   padding: 50px 0 55px 0;
+}
+.menu-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.menu-list::before {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 595px;
+  margin: 0 auto;
+  background-color: #4d5362;
+}
+.menu-list::after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 595px;
+  margin: 0 auto;
+  background-color: #4d5362;
+}
+.menu-list__item {
+  text-align: center;
+}
+.menu-list__item a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 36.6px;
+  line-height: 81.1px;
+  text-decoration: none;
+  font-weight: 300;
 }
 .page-body {
   font-family: "Open Sans", Arial, sans-serif;
